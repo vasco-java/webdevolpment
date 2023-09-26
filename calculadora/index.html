@@ -8,11 +8,6 @@
   <title>CALCULATOR</title>
 </head>
 <body class="body">
-  <svg>
-    <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-      Simple Calculator
-    </text>
-  </svg>
   <form>
         <table>
             <tr>
@@ -25,7 +20,7 @@
                 <td><input type="button" value="2" onclick="display.value += '2'"></td>
                 <td><input type="button" value="3" onclick="display.value += '3'"></td>
                 <td><input type="button" value="C" onclick="display.value = ''"></td>
-                <td><input type="button" value="&#9003;" onclick="backspace()"></td>
+                <td><input type="button" value="CE" onclick="backspace()"></td>
                 <td><input type="button" value="=" onclick="calculate()"></td>
             </tr>
             <tr>
@@ -50,11 +45,11 @@
                 <td><input type="button" value="," onclick="display.value += ','"></td>
                 <td><input type="button" value="+" onclick="display.value += '+'"></td>
                 <td><input type="button" value="/" onclick="display.value += '/'"></td>
-                <td><input type="button" value="tan" onclick="display.value += 'tan'"></td>
+                <td><input type="button" value="tan()" onclick="display.value += 'tan'"></td>
             </tr>
             <tr>
                 <td><input type="button" value="E" onclick="e()"></td>
-                <td><input type="button" value="pi" onclick="pi()"></td>
+                <td><input type="button" value="PI" onclick="pi()"></td>
                 <td><input type="button" value="^" onclick="power()"></td>
                 <td><input type="button" value="(" onclick="display.value += '('"></td>
                 <td><input type="button" value=")" onclick="display.value += ')'"></td>

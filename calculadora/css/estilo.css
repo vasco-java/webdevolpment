@@ -1,19 +1,22 @@
 body{
-  background-color: lightgray;
-
-
+   background: url(https://64.media.tumblr.com/7a25c44fc57cc61172615aa919fc3fee/71b8104d93005ed2-c3/s400x600/2fd98c1ec06a3634d2d736421f416cb8d8fffd26.gifv) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin: 0;
 }
 
-
 table {
-            
-            margin-left: auto;
+           margin-top: 200px;
+           margin-left: auto;
             margin-right: auto;
-            backdrop-filter: blur(11px) saturate(180%);
-            -webkit-backdrop-filter: blur(11px) saturate(180%);
-         background-color: rgba(5,143,242, 0.75);
-         border-radius: 10px;
-         border: 1px solid rgba(209, 213, 219, 0.18);
+            
         }
         
         input[type="button"] {
@@ -21,58 +24,39 @@ table {
             padding: 20px 20px;
             color: white;
             font-size: 24px;
-            font-weight: bold;
-            background: rgba( 255, 255, 255, 0.25 );
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            font-weight: thin;
+            background: rgba( 240, 240, 240, 0.20 );
             backdrop-filter: blur( 4px );
             -webkit-backdrop-filter: blur( 4px );
             border-radius: 10px;
-            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            border: 0.5px transparent;
             
         }
 
          input[type="button"]:hover{
-          background-color: lightblue;
+          background-color: transparent;
          } 
         
         input[type="text"] {
+            color: white; 
             padding: 20px 240px;
-            font-size: 24px;
-            font-weight: bold;
+            font-size: 22px;
+            font-weight: thin;
             border: none;
-            border-radius: 5px;
+            border-radius: 3px;
             border: 2px solid black;
-            text-align: left;
+            text-align: center;
         }
         
         #display {
             text-align: center;
+            border-radius: 10px;
             border: transparent;
+            background: rgba( 240, 240, 240, 0.20 );
+            backdrop-filter: blur( 1px );
+            -webkit-backdrop-filter: blur( 1px );
+            margin-bottom:5px;
         }
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap");
-
-svg {
-  font-family: "Rubik Bubbles", sans-serif;
-  width: 100%; height: 50%;
-}
-svg text {
-  animation: stroke 5s infinite alternate;
-  stroke-width: 2;
-  stroke: #3993FF;
-  font-size: 88px;
-}
-@keyframes stroke {
-  0%   {
-    fill: rgba(72,138,204,0); stroke: rgba(57,147,255,1);
-    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-  }
-  70%  {fill: rgba(72,138,204,0); stroke: rgba(57,147,255,1); }
-  80%  {fill: rgba(72,138,204,0); stroke: rgba(57,147,255,1); stroke-width: 3; }
-  100% {
-    fill: rgba(72,138,204,1); stroke: rgba(57,147,255,0);
-    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-  }
-}
 
 
